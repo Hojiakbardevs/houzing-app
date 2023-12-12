@@ -1,17 +1,19 @@
 import React from "react";
 import GenericButton from "../components/GenericButton";
 import { useNavigate } from "react-router-dom";
+import { Container } from "./style";
+import Errorimg from "./../assets/img/404.png"
 
 const BacktoPage = () => {
     const navigate = useNavigate();
   return (
-    <div>
-      <h1>404 Not bad Not Found page</h1>
-      <hr />
+    <Container>
+      <img src={Errorimg} alt="" />
+      {/* <hr /> */}
       <GenericButton onClick={() => navigate("/")} type='primary'>
         Back to page
       </GenericButton>
-    </div>
+    </Container>
   );
 };
 
