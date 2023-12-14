@@ -7,7 +7,4 @@ justify-content: center;
 flex-direction: column;
 gap: 40px;
 height: 100vh;
-img{
-    width: 404px;
-}
 `

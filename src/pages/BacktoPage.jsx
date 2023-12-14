@@ -8,7 +8,7 @@ const BacktoPage = () => {
     const navigate = useNavigate();
   return (
     <Container>
-      <img src={Errorimg} alt="" />
+      <img src={Errorimg} alt="" style={{width:'404px'}} />
       {/* <hr /> */}
       <GenericButton onClick={() => navigate("/")} type='primary'>
         Back to page
