@@ -7,3 +7,4 @@ const Proporties = () => {
 }
 
 export default Proporties
+
